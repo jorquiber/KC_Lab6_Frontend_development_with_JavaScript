@@ -1,6 +1,7 @@
 import {buildAd, buildEmptyAdsList } from "./ads-view.js";
 import {getAds} from "./ads-model.js"
 import { loaderController } from "../loader/loader-controller.js";
+import { dispatchEvent } from "../utils/dispatchEvent.js";
 
 export async function adsListController(adsList) {
   
@@ -16,7 +17,11 @@ export async function adsListController(adsList) {
         renderEmptyAdsList(adsList);
       }
     } catch (errorMessage) {
-      alert(errorMessage)
+      dispatchEvent('error-loading-ads', {
+        message: errorMessage,
+        type: 'error'
+      }, adsList)
+
     } finally {
       hideLoader();
     }
