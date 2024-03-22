@@ -23,7 +23,9 @@ export const loginController = (loginForm) => {
         type: 'success'
       }, loginForm)
       localStorage.setItem('token', jwt);
-      window.location = './index.html';
+      setTimeout(() => {
+        window.location.href = 'index.html';
+      }, 1000);
     } catch (error) {
       dispatchEvent('signin-notification', {
         message: error,
