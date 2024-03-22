@@ -8,7 +8,7 @@ export function signupController(signupForm) {
   const { showLoader, hideLoader } = loaderController(spinner);
 
   signupForm.addEventListener('submit', (event) => {
-    event.preventDefault(); // evitamos validación en servidor
+    event.preventDefault(); 
     
     handleSignupFormSubmit(signupForm)
   })
