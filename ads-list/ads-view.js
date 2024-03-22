@@ -1,7 +1,7 @@
 export function buildAd(ad) {
     return `
     <a class="ad" href="ad-detail.html?adId=${ad.id}">
-        <img src="${ad.image}" width="100">
+        <img src="${ad.image}">
         <p>${ad.name}</p>
         <p>${ad.description}</p>
         <p>${ad.price} €</p>
