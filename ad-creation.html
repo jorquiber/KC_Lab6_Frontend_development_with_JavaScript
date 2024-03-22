@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Crear anuncio</title>
+    <link rel="stylesheet" href="form-style.css">
+    <link rel="stylesheet" href="notification/style.css">
+    <link rel="stylesheet" href="loader/style.css">
+    <link rel="stylesheet" href="ad-creation.css">
+  </head>
+  <body>
+    <section id="notifications"></section>
+
+    <form id="adCreation">
+      <section id="loader"></section>
+      <label for="image">Foto:</label>
+      <input type="text" id="image" name="image">
+      
+      <br />
+
+      <label for="name">Nombre*:</label>
+      <input type="text" id="name" name="name" required>
+      
+      <br />
+
+      <label for="description">Descripción*:</label>
+      <textarea id="description" name="description" cols="30" rows="5" required></textarea>
+      
+      <br />
+
+      <label for="price">Precio*:</label>
+      <input type="text" id="price" name="price" pattern="^\d+(\.\d{1,2})?$" placeholder="1.23" required>
+      
+      <br />
+
+      <legend>Compra/venta*:</legend>
+      <div>
+        <input type="radio" id="compra" name="transaction" value="Compra" required checked >
+        <label for="compra">Compra</label>
+      </div>
+
+      <div>
+        <input type="radio" id="venta" name="transaction" value="Venta" required>
+        <label for="venta">Venta</label>
+      </div>
+          
+      <br />
+
+      <button type="submit">Publicar anuncio</button>
+    </form>
+
+    <script type="module" src="./ad-creation.js"></script>
+  </body>
+</html>
