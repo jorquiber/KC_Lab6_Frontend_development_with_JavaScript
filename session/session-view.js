@@ -6,5 +6,5 @@ export const buildSession = () => {
 }
 
 export const buildAuthenticatedSession = () => {
-  return `<button>Cerrar sesión</button> <a href="./create-ad.html">Crear anuncio</a>`;
+  return `<button>Cerrar sesión</button> <a href="./ad-creation.html">Crear anuncio</a>`;
 }
