@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registro</title>
+    <link rel="stylesheet" href="./notification/style.css" />
+    <link rel="stylesheet" href="./loader/style.css" />
+    <link rel="stylesheet" href="signup-style.css">
+  </head>
+  <body>
+    <section id="notifications"></section>
+
+    <form id="register-form">
+      <section id="spinner"></section>
+      <label for="email">Email</label>
+      <input type="text" id="email" placeholder="example@email.com" required />
+
+      <br />
+
+      <label for="password">Introducir password</label>
+      <input type="password" id="password" required minlength="6" />
+
+      <br />
+
+      <label for="password-confirmation">Confirmar password</label>
+      <input
+        type="password"
+        id="password-confirmation"
+        required
+        minlength="6"
+      />
+
+      <br />
+
+      <button type="submit">Crear usuario</button>
+    </form>
+
+    <script type="module" src="signup.js"></script>
+  </body>
+</html>
