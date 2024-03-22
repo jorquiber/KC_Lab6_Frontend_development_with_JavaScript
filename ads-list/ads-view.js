@@ -3,7 +3,7 @@ export function buildAd(ad) {
     <a class="ad" href="ad-detail.html?adId=${ad.id}">
         <img src="${ad.image}" width="100">
         <p>${ad.name}</p>
-        <p>Description: ${ad.description}</p>
+        <p>${ad.description}</p>
         <p>${ad.price} €</p>
         <p>${ad.isSold ? "En venta" : "Se busca"}</p>
       </a>
