@@ -17,9 +17,13 @@ form button {
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 40px;
+  font-size: 15px;
+  background: #FFF;
+  color: #000;
 }
 
 form button:hover {
   box-shadow: 0 0 5px rgb(1, 154, 231);
 }
+
 

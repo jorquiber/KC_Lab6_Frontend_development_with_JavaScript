@@ -1,4 +1,8 @@
 
+body {
+  font-family: sans-serif;
+}
+
 .ad {
     display: flex;
     flex-direction: column;
@@ -38,4 +42,23 @@
     color: #848484;
     margin-top: 10px;
   }
+
+  a, button {
+    text-decoration: none;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 40px;
+    font-size: 15px;
+    background: #FFF;
+    color: #000;
+  }
   
+  button:hover,a:hover {
+    box-shadow: 0 0 5px rgb(1, 154, 231);
+  }
+  
+  nav {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
