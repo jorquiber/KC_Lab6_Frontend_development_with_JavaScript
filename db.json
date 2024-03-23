@@ -1,0 +1,61 @@
+{
+  "anuncios": [
+    {
+      "nombre": "Bicicleta",
+      "venta": true,
+      "precio": 230.15,
+      "foto": "https://upload.wikimedia.org/wikipedia/commons/0/04/Bike_icon.png",
+      "descripcion": "Bicicleta en excelente estado, ligera y resistente, perfecta para recorridos urbanos o aventuras en la naturaleza.",
+      "userId": 1,
+      "updatedAt": "2024-03-22T21:59:16.404Z",
+      "id": 3
+    },
+    {
+      "nombre": "Lapiz Staedtler n4",
+      "descripcion": "Lápiz HB de alta calidad, perfecto para escritura suave y precisa. Ideal para estudiantes, artistas y profesionales. Su diseño ergonómico garantiza comodidad durante horas de uso. Disponible en paquetes individuales o en sets. ¡Potencia tu creatividad con este lápiz versátil y duradero!",
+      "foto": "https://upload.wikimedia.org/wikipedia/commons/4/47/Render_L%C3%A1piz_002.png",
+      "precio": "1.34",
+      "venta": true,
+      "userId": 2,
+      "updatedAt": "2024-03-22T23:40:57.947Z",
+      "id": 6
+    },
+    {
+      "nombre": "Coche de la vieja escuela",
+      "descripcion": "Experimenta la elegancia intemporal con nuestro coche clásico. Un símbolo de lujo y estilo, este vehículo captura la atención con su diseño icónico y su rendimiento incomparable. ¡Disfruta del viaje!",
+      "foto": "https://upload.wikimedia.org/wikipedia/commons/3/33/Sketchup_car.png",
+      "precio": "4500",
+      "venta": true,
+      "userId": 1,
+      "updatedAt": "2024-03-22T23:45:12.407Z",
+      "id": 7
+    },
+    {
+      "nombre": "Iphone X",
+      "descripcion": "En búsqueda de un iPhone X en excelente estado. Preferiblemente desbloqueado y con accesorios originales. Dispuesto a pagar un precio justo. Si tienes uno disponible, ¡contáctame cuanto antes! ¡Gracias!",
+      "foto": "https://upload.wikimedia.org/wikipedia/commons/c/cd/IPhone_X.png",
+      "precio": "500",
+      "venta": false,
+      "userId": 2,
+      "updatedAt": "2024-03-22T23:48:29.787Z",
+      "id": 8
+    }
+  ],
+  "users": [
+    {
+      "username": "pepe@email.com",
+      "password": "$2b$10$5bOPBD9vGTdqXH3ZbycsQ.7K9XOjO4dosKe6.TxBGV1K9MGBNhiAK",
+      "id": 1
+    },
+    {
+      "username": "pepe1@email.com",
+      "password": "$2b$10$5bOPBD9vGTdqXH3ZbycsQ.7K9XOjO4dosKe6.TxBGV1K9MGBNhiAK",
+      "id": 2
+    },
+    {
+      "username": "pepe2@email.com",
+      "password": "$2b$10$mP7167KkMKaJ2Vuy6YllduBMEwd0FFltapi/3T4GQvuPeCG6aNraW",
+      "id": 3
+    }
+  ]
+}
